@@ -1,0 +1,109 @@
+.two {
+  text-align: center;
+  background: linear-gradient(45deg, #5163ef, #0892e1, #858ed7);
+  height: 300px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+
+  align-items: center;
+  /* Center vertically */
+
+}
+
+
+
+h1 {
+  color: #0066ff;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+body {
+  background: linear-gradient(45deg, #05293d, #1c80ba, #626fcf);
+  display: flex;
+  /* Enable Flexbox */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Full height of the viewport */
+  margin: 0;
+  /* Remove default margin */
+
+}
+
+input {
+  height: 28px;
+  width: 200px;
+  background-color: aliceblue;
+  border: none;
+
+}
+
+input:focus {
+  border-color: #0892e1;
+  background-color: rgb(244, 244, 244);
+  outline: none;
+}
+
+.forget-password {
+  text-align: right;
+  /* Align text to the left */
+  margin: 0;
+  /* Remove default margin */
+  color: rgb(82, 76, 76);
+  width: 100%;
+  margin-left: 140px;
+  font-size: 13px;
+}
+
+.forget-password:hover {
+  color: red;
+  font-size: 15px;
+}
+
+
+button {
+  height: 28px;
+  width: 200px;
+
+
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+
+
+  background-color: #1877f2;
+  border: none;
+
+
+  line-height: 30px;
+  padding: 0 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.15s;
+
+}
+
+button:hover {
+
+  background-color: #0456c1;
+  cursor: pointer;
+}
+
+img {
+
+  height: 30px;
+}
+
+.img-input {
+  display: flex;
+  margin-left: 50px;
+}
+
+.email {
+  width: 250px;
+}

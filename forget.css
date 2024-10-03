@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* Stack children vertically */
+  align-items: center;
+  /* Center children horizontally */
+  height: 100vh;
+  /* Full viewport height */
+  margin: 0;
+  /* Remove default margin */
+  background: linear-gradient(45deg, #1c80ba, #05293d, #626fcf);
+
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  /* Space elements at extremes */
+  align-items: center;
+  /* Align items vertically */
+  width: 100%;
+  /* Full width */
+  padding: 10px;
+  /* Optional padding */
+  border-bottom: 2px solid black;
+  /* Bottom border */
+}
+
+button {
+  height: 28px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  background-color: #1877f2;
+  border: none;
+  line-height: 30px;
+  padding: 0 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.15s;
+}
+
+button:hover {
+  background-color: #0456c1;
+  cursor: pointer;
+}
+
+.pone {
+  color: #0066ff;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+  /* Remove default margin */
+}
+
+.ptwo {
+  margin-top: 43px;
+  /* Space above second title */
+}
+
+.actbody {
+  text-align: center;
+  background: linear-gradient(45deg, #5163ef, #0892e1, #858ed7);
+  height: 300px;
+  /* Fixed height */
+  width: 350px;
+  /* Fixed width */
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  /* Space between navbar and action body */
+}
+
+input {
+  height: 28px;
+  width: 200px;
+  background-color: aliceblue;
+  border: 1px solid #0892e1;
+  /* Border style */
+}
+
+input:focus {
+  border-color: #0892e1;
+  background-color: rgb(244, 244, 244);
+  outline: none;
+  /* Remove outline */
+}
